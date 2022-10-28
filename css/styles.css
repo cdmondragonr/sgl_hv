@@ -78,8 +78,18 @@ section {
   width: 45%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.intro .intro-contents .intro-photo-cdmr ul {
+  list-style: none;
+}
+.intro .intro-contents .intro-photo-cdmr ul li {
+  font-size: 35px;
+  color: rgb(248, 248, 248);
+  margin: 40px;
 }
 
 .contact {
@@ -184,11 +194,13 @@ section {
   background-color: #5a5a5a;
   width: 95%;
   height: 50%;
+  border-radius: 10px;
 }
 .contact .my-contact .whereiam p {
   width: 25%;
   height: 10%;
   background-color: rgb(248, 248, 248);
+  border-bottom-right-radius: 10px;
   font-size: 20px;
   text-align: center;
 }
@@ -201,6 +213,7 @@ section {
   top: 90%;
   font-size: 20px;
   font-weight: 100;
+  border-top-left-radius: 10px;
   font-family: "JetBrains Mono", "Akshar", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
@@ -240,6 +253,7 @@ section {
   width: 100%;
   margin-top: 15px;
   padding: 10px;
+  border-radius: 5px;
 }
 .contact .contact-me input:focus {
   border-bottom: 2px solid #78788c;
@@ -293,6 +307,12 @@ section {
 .skills .skills-gird h2 {
   font-family: "Akshar", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
+}
+.skills .skills-gird ul {
+  list-style: none;
+}
+.skills .skills-gird ul li {
+  font-size: 18px;
 }
 
 .about-me {
